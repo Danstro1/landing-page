@@ -16,10 +16,13 @@ body{
     display: flex;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header a{
     font-size: 18px;
     color: #E5E7EB;
-    text-decoration: none;
 }
 
 .header img{
@@ -70,7 +73,7 @@ ul{
     flex-wrap: wrap;
 }
 
-button{
+.sign-button{
     margin-top: 10px;
     background-color: #3882F6;
     color: white;
@@ -146,4 +149,45 @@ button{
     font-size: 36px;
     font-style: italic;
     max-width: 900px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.blue-cont{   
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    max-width: 1100px;
+    border: 4px solid  #3882F6;
+    background-color: #3882F6;
+    color: white;
+    gap: 180px;
+    padding: 48px 0;
+    border-radius: 8px;
+}
+.sign-up a{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    align-self: center;
+    padding: 4px 32px;
+}
+
+#header{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#sub{
+    font-size: 20px;
 }
